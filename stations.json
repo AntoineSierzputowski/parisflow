@@ -1,0 +1,154 @@
+{
+    "stations": [
+        {
+            "name": "Châtelet",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "name": "Hôtel de Ville",
+            "x": 1,
+            "y": 0
+        },
+        {
+            "name": "St Michel",
+            "x": 0,
+            "y": -1
+        },
+        {
+            "name": "Gare du Nord",
+            "x": 1,
+            "y": 6
+        },
+        {
+            "name": "Gare de l'Est",
+            "x": 2,
+            "y": 5
+        },
+        {
+            "name": "Barbès",
+            "x": 1,
+            "y": 7
+        },
+        {
+            "name": "Montparnasse",
+            "x": -2,
+            "y": -4
+        },
+        {
+            "name": "Denfert",
+            "x": 0,
+            "y": -5
+        },
+        {
+            "name": "Place d'Italie",
+            "x": 2,
+            "y": -6
+        },
+        {
+            "name": "Nation",
+            "x": 7,
+            "y": -1
+        },
+        {
+            "name": "République",
+            "x": 3,
+            "y": 2
+        },
+        {
+            "name": "Bastille",
+            "x": 3,
+            "y": -1
+        },
+        {
+            "name": "Gare de Lyon",
+            "x": 4,
+            "y": -2
+        },
+        {
+            "name": "Charles de Gaulle Étoile",
+            "x": -7,
+            "y": 1
+        },
+        {
+            "name": "Concorde",
+            "x": -3,
+            "y": 0
+        },
+        {
+            "name": "Trocadéro",
+            "x": -6,
+            "y": 0
+        },
+        {
+            "name": "La Défense",
+            "x": -10,
+            "y": 1
+        },
+        {
+            "name": "Pigalle",
+            "x": -1,
+            "y": 5
+        },
+        {
+            "name": "Saint Lazare",
+            "x": -2,
+            "y": 3
+        },
+        {
+            "name": "Stalingrad",
+            "x": 2,
+            "y": 8
+        },
+        {
+            "name": "Bercy",
+            "x": 5,
+            "y": -3
+        },
+        {
+            "name": "Porte de Vincennes",
+            "x": 9,
+            "y": -2
+        },
+        {
+            "name": "Porte de Versailles",
+            "x": -4,
+            "y": -7
+        },
+        {
+            "name": "Invalides",
+            "x": -4,
+            "y": -1
+        },
+        {
+            "name": "Opéra",
+            "x": -2,
+            "y": 1
+        },
+        {
+            "name": "Madeleine",
+            "x": -3,
+            "y": 2
+        },
+        {
+            "name": "Champs Élysées",
+            "x": -5,
+            "y": 1
+        },
+        {
+            "name": "Belleville",
+            "x": 4,
+            "y": 4
+        },
+        {
+            "name": "Ménilmontant",
+            "x": 5,
+            "y": 3
+        },
+        {
+            "name": "Javel",
+            "x": -6,
+            "y": -4
+        }
+    ]
+}
