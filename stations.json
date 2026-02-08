@@ -3,152 +3,322 @@
         {
             "name": "Châtelet",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "connections": [
+                "Hôtel de Ville",
+                "Opéra",
+                "St Michel"
+            ]
         },
         {
             "name": "Hôtel de Ville",
             "x": 1,
-            "y": 0
+            "y": 0,
+            "connections": [
+                "Bastille",
+                "Châtelet",
+                "République",
+                "St Michel"
+            ]
         },
         {
             "name": "St Michel",
             "x": 0,
-            "y": -1
+            "y": -1,
+            "connections": [
+                "Châtelet",
+                "Denfert",
+                "Hôtel de Ville",
+                "Montparnasse",
+                "Opéra"
+            ]
         },
         {
             "name": "Gare du Nord",
             "x": 1,
-            "y": 6
+            "y": 6,
+            "connections": [
+                "Barbès",
+                "Gare de l'Est",
+                "Pigalle",
+                "Stalingrad"
+            ]
         },
         {
             "name": "Gare de l'Est",
             "x": 2,
-            "y": 5
+            "y": 5,
+            "connections": [
+                "Barbès",
+                "Belleville",
+                "Gare du Nord",
+                "Ménilmontant",
+                "Stalingrad"
+            ]
         },
         {
             "name": "Barbès",
             "x": 1,
-            "y": 7
+            "y": 7,
+            "connections": [
+                "Gare de l'Est",
+                "Gare du Nord",
+                "Pigalle",
+                "Stalingrad"
+            ]
         },
         {
             "name": "Montparnasse",
             "x": -2,
-            "y": -4
+            "y": -4,
+            "connections": [
+                "Denfert",
+                "Javel",
+                "Place d'Italie",
+                "Porte de Versailles",
+                "St Michel"
+            ]
         },
         {
             "name": "Denfert",
             "x": 0,
-            "y": -5
+            "y": -5,
+            "connections": [
+                "Montparnasse",
+                "Place d'Italie",
+                "Porte de Versailles",
+                "St Michel"
+            ]
         },
         {
             "name": "Place d'Italie",
             "x": 2,
-            "y": -6
+            "y": -6,
+            "connections": [
+                "Bercy",
+                "Denfert",
+                "Montparnasse"
+            ]
         },
         {
             "name": "Nation",
             "x": 7,
-            "y": -1
+            "y": -1,
+            "connections": [
+                "Bercy",
+                "Gare de Lyon",
+                "Porte de Vincennes"
+            ]
         },
         {
             "name": "République",
             "x": 3,
-            "y": 2
+            "y": 2,
+            "connections": [
+                "Belleville",
+                "Hôtel de Ville",
+                "Ménilmontant"
+            ]
         },
         {
             "name": "Bastille",
             "x": 3,
-            "y": -1
+            "y": -1,
+            "connections": [
+                "Bercy",
+                "Gare de Lyon",
+                "Hôtel de Ville"
+            ]
         },
         {
             "name": "Gare de Lyon",
             "x": 4,
-            "y": -2
+            "y": -2,
+            "connections": [
+                "Bastille",
+                "Bercy",
+                "Nation",
+                "Porte de Vincennes"
+            ]
         },
         {
             "name": "Charles de Gaulle Étoile",
             "x": -7,
-            "y": 1
+            "y": 1,
+            "connections": [
+                "Champs Élysées",
+                "La Défense",
+                "Trocadéro"
+            ]
         },
         {
             "name": "Concorde",
             "x": -3,
-            "y": 0
+            "y": 0,
+            "connections": [
+                "Champs Élysées",
+                "Invalides",
+                "Madeleine",
+                "Opéra"
+            ]
         },
         {
             "name": "Trocadéro",
             "x": -6,
-            "y": 0
+            "y": 0,
+            "connections": [
+                "Champs Élysées",
+                "Charles de Gaulle Étoile",
+                "Invalides",
+                "La Défense"
+            ]
         },
         {
             "name": "La Défense",
             "x": -10,
-            "y": 1
+            "y": 1,
+            "connections": [
+                "Champs Élysées",
+                "Charles de Gaulle Étoile",
+                "Trocadéro"
+            ]
         },
         {
             "name": "Pigalle",
             "x": -1,
-            "y": 5
+            "y": 5,
+            "connections": [
+                "Barbès",
+                "Gare du Nord",
+                "Saint Lazare"
+            ]
         },
         {
             "name": "Saint Lazare",
             "x": -2,
-            "y": 3
+            "y": 3,
+            "connections": [
+                "Madeleine",
+                "Opéra",
+                "Pigalle"
+            ]
         },
         {
             "name": "Stalingrad",
             "x": 2,
-            "y": 8
+            "y": 8,
+            "connections": [
+                "Barbès",
+                "Gare de l'Est",
+                "Gare du Nord"
+            ]
         },
         {
             "name": "Bercy",
             "x": 5,
-            "y": -3
+            "y": -3,
+            "connections": [
+                "Bastille",
+                "Gare de Lyon",
+                "Nation",
+                "Place d'Italie",
+                "Porte de Vincennes"
+            ]
         },
         {
             "name": "Porte de Vincennes",
             "x": 9,
-            "y": -2
+            "y": -2,
+            "connections": [
+                "Bercy",
+                "Gare de Lyon",
+                "Nation"
+            ]
         },
         {
             "name": "Porte de Versailles",
             "x": -4,
-            "y": -7
+            "y": -7,
+            "connections": [
+                "Denfert",
+                "Javel",
+                "Montparnasse"
+            ]
         },
         {
             "name": "Invalides",
             "x": -4,
-            "y": -1
+            "y": -1,
+            "connections": [
+                "Champs Élysées",
+                "Concorde",
+                "Javel",
+                "Trocadéro"
+            ]
         },
         {
             "name": "Opéra",
             "x": -2,
-            "y": 1
+            "y": 1,
+            "connections": [
+                "Châtelet",
+                "Concorde",
+                "Madeleine",
+                "Saint Lazare",
+                "St Michel"
+            ]
         },
         {
             "name": "Madeleine",
             "x": -3,
-            "y": 2
+            "y": 2,
+            "connections": [
+                "Concorde",
+                "Opéra",
+                "Saint Lazare"
+            ]
         },
         {
             "name": "Champs Élysées",
             "x": -5,
-            "y": 1
+            "y": 1,
+            "connections": [
+                "Charles de Gaulle Étoile",
+                "Concorde",
+                "Invalides",
+                "La Défense",
+                "Trocadéro"
+            ]
         },
         {
             "name": "Belleville",
             "x": 4,
-            "y": 4
+            "y": 4,
+            "connections": [
+                "Gare de l'Est",
+                "Ménilmontant",
+                "République"
+            ]
         },
         {
             "name": "Ménilmontant",
             "x": 5,
-            "y": 3
+            "y": 3,
+            "connections": [
+                "Belleville",
+                "Gare de l'Est",
+                "République"
+            ]
         },
         {
             "name": "Javel",
             "x": -6,
-            "y": -4
+            "y": -4,
+            "connections": [
+                "Invalides",
+                "Montparnasse",
+                "Porte de Versailles"
+            ]
         }
     ]
 }
